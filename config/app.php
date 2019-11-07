@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://larabbs.oo'),
+    'url' => env('APP_URL', 'http://larabbs.cc'),
 
     'asset_url' => env('ASSET_URL', null),
 
