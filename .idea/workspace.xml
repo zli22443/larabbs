@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890c43a6-53b0-486d-9b42-d4aae24e70b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572967505786</updated>
       <workItem from="1572967506906" duration="549000" />
-      <workItem from="1573128612454" duration="8319000" />
+      <workItem from="1573128612454" duration="8450000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置信息">
       <created>1573129404162</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573136936509</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="静态文件浏览器缓存问题">
+      <created>1573137165206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573137165206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +212,7 @@
     <MESSAGE value="修改配置信息" />
     <MESSAGE value="新增辅助函数文件" />
     <MESSAGE value="基础页面结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础页面结构" />
+    <MESSAGE value="静态文件浏览器缓存问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="静态文件浏览器缓存问题" />
   </component>
 </project>
