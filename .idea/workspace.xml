@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890c43a6-53b0-486d-9b42-d4aae24e70b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EnsureEmailIsVerified.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +177,7 @@
       <updated>1572967505786</updated>
       <workItem from="1572967506906" duration="549000" />
       <workItem from="1573128612454" duration="12373000" />
-      <workItem from="1573222463799" duration="1794000" />
+      <workItem from="1573222463799" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置信息">
       <created>1573129404162</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573141073935</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="移动User模型到app/Models目录下面">
+      <created>1573225994743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573225994743</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +270,7 @@
     <MESSAGE value="生成用户认证代码" />
     <MESSAGE value="修复跳转链接" />
     <MESSAGE value="注册验证码" />
-    <option name="LAST_COMMIT_MESSAGE" value="注册验证码" />
+    <MESSAGE value="移动User模型到app/Models目录下面" />
+    <option name="LAST_COMMIT_MESSAGE" value="移动User模型到app/Models目录下面" />
   </component>
 </project>
