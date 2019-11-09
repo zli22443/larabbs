@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890c43a6-53b0-486d-9b42-d4aae24e70b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EnsureEmailIsVerified.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/EmailVerified.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/shared/_messages.blade.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +177,8 @@
       <updated>1572967505786</updated>
       <workItem from="1572967506906" duration="549000" />
       <workItem from="1573128612454" duration="12373000" />
-      <workItem from="1573222463799" duration="3357000" />
+      <workItem from="1573222463799" duration="3563000" />
+      <workItem from="1573307968021" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置信息">
       <created>1573129404162</created>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573225994743</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="邮箱认证">
+      <created>1573227623142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573227623142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +279,7 @@
     <MESSAGE value="修复跳转链接" />
     <MESSAGE value="注册验证码" />
     <MESSAGE value="移动User模型到app/Models目录下面" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动User模型到app/Models目录下面" />
+    <MESSAGE value="邮箱认证" />
+    <option name="LAST_COMMIT_MESSAGE" value="邮箱认证" />
   </component>
 </project>
