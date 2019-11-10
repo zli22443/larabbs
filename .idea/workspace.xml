@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890c43a6-53b0-486d-9b42-d4aae24e70b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_09_232014_add_avatar_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/captcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +134,6 @@
   <component name="ProjectId" id="1TCcR0lAyxoKKwR9aSDcOUkC9GB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -162,12 +163,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,7 +176,8 @@
       <workItem from="1572967506906" duration="549000" />
       <workItem from="1573128612454" duration="12373000" />
       <workItem from="1573222463799" duration="3563000" />
-      <workItem from="1573307968021" duration="6510000" />
+      <workItem from="1573307968021" duration="6590000" />
+      <workItem from="1573350390965" duration="8106000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置信息">
       <created>1573129404162</created>
@@ -274,7 +270,49 @@
       <option name="project" value="LOCAL" />
       <updated>1573311849885</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="编辑个人资料">
+      <created>1573316299988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1573316299988</updated>
+    </task>
+    <task id="LOCAL-00015" summary="显示个人资料">
+      <created>1573351271454</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573351271454</updated>
+    </task>
+    <task id="LOCAL-00016" summary="上传头像">
+      <created>1573368180421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573368180421</updated>
+    </task>
+    <task id="LOCAL-00017" summary="显示头像">
+      <created>1573368689631</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1573368689631</updated>
+    </task>
+    <task id="LOCAL-00018" summary="限制头像分辨率">
+      <created>1573370124075</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1573370124075</updated>
+    </task>
+    <task id="LOCAL-00019" summary="裁剪头像">
+      <created>1573371208549</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573371208549</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +345,12 @@
     <MESSAGE value="认证后的消息提示" />
     <MESSAGE value="找回密码成功消息提示" />
     <MESSAGE value="用户个人页面原型" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户个人页面原型" />
+    <MESSAGE value="编辑个人资料" />
+    <MESSAGE value="显示个人资料" />
+    <MESSAGE value="上传头像" />
+    <MESSAGE value="显示头像" />
+    <MESSAGE value="限制头像分辨率" />
+    <MESSAGE value="裁剪头像" />
+    <option name="LAST_COMMIT_MESSAGE" value="裁剪头像" />
   </component>
 </project>
