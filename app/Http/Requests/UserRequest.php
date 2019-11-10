@@ -35,7 +35,7 @@ class UserRequest extends FormRequest
     {
         return [
             'name.unique' => '用户名已被占用，请重新填写',
-            'name.between' => '用户名必须介于 3 - 25 个字符之间。',
+            'name.between' => '用户名必须介于 3 - 10 个字符之间。',
             'name.required' => '用户名不能为空。',
         ];
     }
