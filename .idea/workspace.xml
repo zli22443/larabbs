@@ -2,44 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890c43a6-53b0-486d-9b42-d4aae24e70b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Events/Illuminate/Foundation/Auth/VerifiesEmails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/TopicRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/TopicObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Observers/UserObserver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/Policy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/TopicPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TopicFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_11_10_180020_create_topics_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/image7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/images9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wechat20191110154407.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/zzgDzs4TjD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/common/error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/topics/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/topics/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TopicFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TopicFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/TopicsTableSeeder.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +176,7 @@
       <workItem from="1573128612454" duration="12373000" />
       <workItem from="1573222463799" duration="3563000" />
       <workItem from="1573307968021" duration="6590000" />
-      <workItem from="1573350390965" duration="10448000" />
+      <workItem from="1573350390965" duration="12886000" />
     </task>
     <task id="LOCAL-00001" summary="修改配置信息">
       <created>1573129404162</created>
@@ -363,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573379928155</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="生成话题骨架">
+      <created>1573380301862</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1573380301862</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,6 +381,7 @@
     <MESSAGE value="授权访问" />
     <MESSAGE value="分类模型和数据" />
     <MESSAGE value="新增generator 扩展" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增generator 扩展" />
+    <MESSAGE value="生成话题骨架" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成话题骨架" />
   </component>
 </project>
